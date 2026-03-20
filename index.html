@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- Meta tags for responsiveness and SEO -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vrushabh Patel | Portfolio</title>
+
+<!-- Linking External CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<nav class="navbar">
+
+<!-- Logo / Name -->
+<div class="logo">Vrushabh</div>
+
+<!-- Navigation Menu -->
+<ul class="nav-menu">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<!-- Hamburger icon for mobile -->
+<div class="hamburger">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- ================= HOME SECTION ================= -->
+
+<section id="home" class="home">
+
+<div class="home-container">
+
+<img src="images/profile.jpg" class="profile-img">
+
+<h1>Limbachiya Vrushabh</h1>
+
+<p class="tagline">
+Frontend Developer | BSc IT Student | Web Development Enthusiast
+</p>
+
+<a href="Resume.pdf" target="_blank" class="btn">
+Download Resume
+</a>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT SECTION ================= -->
+
+<section id="about" class="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about-container">
+
+<p>
+I am a passionate BSc IT student at GLS University with strong
+interest in frontend development, UI design and building
+interactive websites. I enjoy transforming ideas into real
+web applications using HTML, CSS and JavaScript.
+</p>
+
+<h3>Education</h3>
+
+<ul>
+
+<li>Motherland International School (Nursery – 10th)</li>
+<li>Divine Life International School (11th – 12th)</li>
+<li>GLS University – BSc IT Dual Degree (2024 – 2027)</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<!-- ================= SKILLS SECTION ================= -->
+
+<section id="skills" class="skills">
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Java</div>
+<div class="skill">SQL</div>
+<div class="skill">UI / UX Design</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROJECT SECTION ================= -->
+
+<section id="projects" class="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects-grid">
+
+<!-- Project Card -->
+<div class="project-card" data-project="amazon">
+
+<h3>Mini Amazon Clone</h3>
+<p>E-commerce frontend project using HTML, CSS and JavaScript.</p>
+
+<button class="view-btn">View Details</button>
+
+</div>
+
+<div class="project-card" data-project="blog">
+
+<h3>Bridal Blog Website</h3>
+<p>A responsive blog platform with modern UI.</p>
+
+<button class="view-btn">View Details</button>
+
+</div>
+
+<div class="project-card" data-project="space">
+
+<h3>Space Blog</h3>
+<p>A blog website about astronomy and space science.</p>
+
+<button class="view-btn">View Details</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= MODAL POPUP ================= -->
+
+<div class="modal" id="projectModal">
+
+<div class="modal-content">
+
+<span class="close">&times;</span>
+
+<h3 id="modalTitle"></h3>
+
+<p id="modalDescription"></p>
+
+</div>
+
+</div>
+
+<!-- ================= CONTACT SECTION ================= -->
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<form id="contactForm">
+
+<input type="text" id="name" placeholder="Your Name">
+
+<input type="email" id="email" placeholder="Your Email">
+
+<input type="text" id="subject" placeholder="Subject">
+
+<textarea id="message" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+<p id="formMessage"></p>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>© 2026 Vrushabh Patel | Portfolio Website</p>
+
+</footer>
+
+<!-- Linking JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
